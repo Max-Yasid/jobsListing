@@ -1,3 +1,10 @@
+# Frontend Mentor - Job listings with filtering
+
+![Design preview for the Job listings with filtering coding challenge](./public/design/desktop-preview.jpg)
+
+# Live Demo
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
