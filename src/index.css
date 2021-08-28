@@ -5,9 +5,35 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
-
+*{
+  box-sizing: border-box;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+:root{
+  /* primary colors */
+  --Desaturated-Dark-Cyan: hsl(180, 29%, 50%);
+  /* neutral colors*/
+  --dark-cyan-shadow: rgba(113, 163, 163, 0.459);
+  --Light-Grayish-Cyan: hsl(180, 52%, 96%);
+  --Light-Grayish-Cyan-filters: hsl(180, 31%, 95%);
+  --Dark-Grayish-Cyan: hsl(180, 8%, 52%);
+  --Very-Dark-Grayish-Cyan: hsl(180, 14%, 20%);
+  /* fonts */
+  --main-font: 'Spartan', sans-serif;
+}
+.borde{
+  border: 1px solid black;
+}
+@media only screen and (max-width: 500px){
+
+}
+@media only screen and (max-width: 320px){
+  body{
+    font-size: 15px;
+  }
 }

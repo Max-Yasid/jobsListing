@@ -1,0 +1,77 @@
+.job-info{
+    padding-left: 10px;
+}
+.content{
+    display: grid;
+    grid-template-columns: 100px calc(100% - 50% - 100px) 50%;
+    padding: 25px 0px;
+    margin: 0;
+}
+.enterprise-name{
+    color: var(--Desaturated-Dark-Cyan);
+    font-size: .75em;
+    font-weight: 700;
+    vertical-align: auto;
+    padding: 0;
+    width: fit-content;
+    margin-right: 15px;
+}
+.badges{
+    display: inline-block;
+}
+.job-title{
+    color: var(--Very-Dark-Grayish-Cyan);
+    font-size: 1.2em;
+    font-weight: 700;
+    padding: 7px 0;
+    cursor: pointer;
+}
+.job-title:hover{
+    color: var(--Desaturated-Dark-Cyan);
+}
+.secondary-info{
+    color: var(--Dark-Grayish-Cyan);
+    font-size: .8em;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.filter-badges{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 0px 30px 0px 10px;
+}
+.mobile-line-separator{
+    padding: 5px 10px;
+}
+@media only screen and (max-width: 700px){
+    .secondary-info{
+        color: var(--Dark-Grayish-Cyan);
+        font-size: .8em;
+        display: flex;
+        gap: 5px;
+        align-items: center;
+    }
+}
+@media only screen and (max-width: 400px){
+    .entreprise-logo{
+        width: 50px;
+        height: 50px;
+    }
+    .filter-badges{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        padding: 0px 10px 0px 10px;
+    }
+    .content{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 25px 0px;
+        margin: 0;
+    }
+}

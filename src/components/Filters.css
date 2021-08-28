@@ -1,0 +1,23 @@
+.filters{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.clear-filters{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.btn-clear{
+    background-color: transparent;
+    color: var(--Desaturated-Dark-Cyan);
+    border: none;
+    cursor: pointer;
+    font-family: var(--main-font);
+    text-align: right;
+    font-weight: 700;
+    font-size: .8em;
+}
+.btn-clear:hover{
+    text-decoration: underline;
+}
