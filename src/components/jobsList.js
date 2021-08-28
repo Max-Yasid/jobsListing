@@ -6,7 +6,7 @@ const Container = styled.ul`
     margin: 0 auto;
     width: 1000px;
     max-width: 90vw;
-    padding: 0;
+    padding: 0 0 30px 0;
 `; 
 
 export default function JobsList({ jobsList, filters }){
